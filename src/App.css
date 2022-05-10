@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main h3 {
+  margin: 10px;
+}
+button {
+  width: 45px;
+  height: 45px;
+}
+
+.home {
+  min-height: 100vh;
+  background-color: rgb(47, 46, 70);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
