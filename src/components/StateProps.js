@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../App.css";
 import Nav from "./Nav";
+import Video from "./Video";
 // Import components
 
 function StateProps() {
@@ -27,6 +28,7 @@ function StateProps() {
         Toggle
       </button>
       <Nav />
+      <Video />
     </div>
   );
 }
