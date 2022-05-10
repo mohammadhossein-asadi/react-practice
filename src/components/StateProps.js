@@ -1,5 +1,9 @@
 function StateProps() {
-  return <div>StateProps</div>;
+  return (
+    <div>
+      <h1>Hello</h1>
+    </div>
+  );
 }
 
 export default StateProps;
