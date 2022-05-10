@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../App.css";
+import Nav from "./Nav";
 // Import components
 
 function StateProps() {
@@ -25,6 +26,7 @@ function StateProps() {
       <button className="btn btn-warning" onClick={toggler}>
         Toggle
       </button>
+      <Nav />
     </div>
   );
 }
