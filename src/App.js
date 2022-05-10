@@ -1,27 +1,18 @@
 import "./App.css";
 import React, { useState } from "react";
 
-const countInitial = () => {
-  console.log("Run function");
-  return 0;
-};
-
 function App() {
-  const [count, setCount] = useState(() => countInitial());
-
-  const decrementCount = () => setCount((prevCount) => prevCount - 1);
-  const incrementCount = () => setCount((prevCount) => prevCount + 1);
+  const [resourceType, setResourceType] = useState("posts");
 
   return (
-    <div className="main">
-      <button className="btn btn-primary" onClick={decrementCount}>
-        -
-      </button>
-      <h3>{count}</h3>
-      <button className="btn btn-primary" onClick={incrementCount}>
-        +
-      </button>
-    </div>
+    <>
+      <div className="main">
+        <button onClick={() => setResourceType("posts")}>Posts</button>
+        <button onClick={() => setResourceType("users")}>Users</button>
+        <button onClick={() => setResourceType("comments")}>Comments</button>
+      </div>
+      <h1 className="main">{resourceType}</h1>
+    </>
   );
 }
 
