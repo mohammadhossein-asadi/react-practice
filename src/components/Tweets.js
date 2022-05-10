@@ -1,10 +1,9 @@
+// Import components
 import Tweet from "./Tweet";
 
-const Tweets = ({ username, age }) => (
+const Tweets = (props) => (
   <section>
-    <h1>{username}</h1>
-    <h2>{age}</h2>
-    <Tweet />
+    <Tweet username={props.username} age={props.age} />
   </section>
 );
 
