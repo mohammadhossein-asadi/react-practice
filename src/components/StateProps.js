@@ -11,7 +11,7 @@ function StateProps() {
     setCounter((pre) => pre + 1);
   };
 
-  const toggleElement = () => {
+  const toggler = () => {
     setToggle((prev) => !prev);
   };
 
@@ -22,7 +22,7 @@ function StateProps() {
       <button className="btn btn-primary" onClick={incrementer}>
         Click
       </button>
-      <button className="btn btn-warning" onClick={toggleElement}>
+      <button className="btn btn-warning" onClick={toggler}>
         Toggle
       </button>
     </div>
