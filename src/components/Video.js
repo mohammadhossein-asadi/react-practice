@@ -1,10 +1,9 @@
-import { useState } from "react";
-
-const Video = (props) => {
+const Video = ({ number, setToggle }) => {
   // I can add state here
   return (
     <section>
-      <h1>Video {props.number}</h1>
+      <h1>Video {number}</h1>
+      <button onClick={setToggle}>Toggle</button>
     </section>
   );
 };

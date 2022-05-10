@@ -19,8 +19,8 @@ function StateProps() {
 
   return (
     <div>
-      <Nav />
-      <Video number={counter} />
+      <Nav toggle={toggler} />
+      <Video number={counter} setToggle={setToggle} />
     </div>
   );
 }
