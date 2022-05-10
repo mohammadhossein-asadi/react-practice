@@ -1,14 +1,12 @@
+import { useState } from "react";
 import "../App.css";
 // Import components
 
 function StateProps() {
   // Write Javascript Here
-  let counter = 0;
+  const [counter, setCounter] = useState(0);
 
-  const incrementer = () => {
-    counter += 1;
-    console.log(counter);
-  };
+  const incrementer = () => {};
 
   return (
     <div>
