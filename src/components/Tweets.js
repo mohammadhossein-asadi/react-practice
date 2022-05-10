@@ -7,7 +7,11 @@ const Tweets = (props) => {
   const tweets = [
     {
       name: "Mohammadhossein",
-      tweet: "React",
+      tweet: "Happy Birthday Motahare 😍❤💜😍",
+    },
+    {
+      name: "Motahare",
+      tweet: "Yooooooooh Thank you🥳😇",
     },
     {
       name: "Traversy media",
@@ -16,6 +20,10 @@ const Tweets = (props) => {
     {
       name: "WebDevSimplified",
       tweet: "hey guys Im simplified the web ? guys hello , whrer is everybody",
+    },
+    {
+      name: "Seyed",
+      tweet: "Bemolaaaaaaaaaaaaa???? 👎",
     },
   ];
 
