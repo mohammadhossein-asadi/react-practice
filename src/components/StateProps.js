@@ -19,16 +19,8 @@ function StateProps() {
 
   return (
     <div>
-      <h1 className={toggle ? "active" : ""}>Hello React</h1>
-      <h2>Counter {counter}</h2>
-      <button className="btn btn-primary" onClick={incrementer}>
-        Click
-      </button>
-      <button className="btn btn-warning" onClick={toggler}>
-        Toggle
-      </button>
       <Nav />
-      <Video />
+      <Video number={counter} />
     </div>
   );
 }
