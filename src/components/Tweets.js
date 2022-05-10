@@ -1,6 +1,7 @@
-const Tweets = () => (
+const Tweets = ({ username, age }) => (
   <section>
-    <h1>Tweets</h1>
+    <h1>{username}</h1>
+    <h2>{age}</h2>
   </section>
 );
 
