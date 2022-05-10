@@ -14,3 +14,5 @@ const Nav = () => (
     </li>
   </nav>
 );
+
+export default Nav;
