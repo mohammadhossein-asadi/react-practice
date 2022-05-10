@@ -1,7 +1,7 @@
-const Tweet = ({ username, age }) => (
+const Tweet = (props) => (
   <div>
-    <h1>{username}</h1>
-    <h2>{age}</h2>
+    <h1>{props.name}</h1>
+    <h3>{props.tweet}</h3>
   </div>
 );
 
