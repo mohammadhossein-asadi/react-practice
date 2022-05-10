@@ -19,8 +19,9 @@ function StateProps() {
 
   return (
     <div className="App">
-      <Nav toggle={toggler} />
-      <Video number={counter} setToggle={toggler} />
+      <h1>Hello React</h1>
+      <button onClick={incrementer}>Incrementer</button>
+      <h2>{counter}</h2>
     </div>
   );
 }
