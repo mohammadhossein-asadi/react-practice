@@ -1,9 +1,9 @@
-const Video = ({ number, setToggle }) => {
+const Video = (props) => {
   // I can add state here
   return (
     <section>
-      <h1>Video {number}</h1>
-      <button onClick={setToggle}>Toggle</button>
+      <h1>Video {props.number}</h1>
+      <button onClick={props.setToggle}>Toggle</button>
     </section>
   );
 };
